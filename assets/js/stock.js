@@ -1,4 +1,4 @@
-const productos = [
+const stockProductos = [
     {
         id: 1 ,
         nombre:'Sillon Asia',
@@ -61,7 +61,7 @@ const productos = [
     },
     {
         id: 7 ,
-        nombre:'Juego de mesa Amatista',
+        nombre:'J. mesa Amatista',
         precio: 280000,
         categoria: 'mesas',
         descuento: false,
@@ -71,7 +71,7 @@ const productos = [
     },
     {
         id: 8 ,
-        nombre:'Juego de mesa Rodonita',
+        nombre:'J. mesa Rodonita',
         precio: 280000,
         categoria: 'mesas',
         descuento: false,
@@ -81,7 +81,7 @@ const productos = [
     },
     {
         id: 9 ,
-        nombre:'Juego de mesa Morganita',
+        nombre:'J. mesa Morganita',
         precio: 420000,
         categoria: 'mesas',
         descuento: false,
@@ -91,7 +91,7 @@ const productos = [
     },
     {
         id: 10 ,
-        nombre:'Juego de mesa Turmalina',
+        nombre:'J. mesa Turmalina',
         precio: 400000,
         categoria: 'mesas',
         descuento: false,
@@ -101,7 +101,7 @@ const productos = [
     },
     {
         id: 11 ,
-        nombre:'Juego de mesa Ónix',
+        nombre:'J. mesa Ónix',
         precio: 530000,
         categoria: 'mesas',
         descuento: false,
@@ -111,7 +111,7 @@ const productos = [
     },
     {
         id: 12 ,
-        nombre:'Juego de mesa Rosanita',
+        nombre:'J. mesa Rosanita',
         precio: 590000,
         categoria: 'mesas',
         descuento: false,
@@ -280,7 +280,7 @@ const productos = [
     },
     {
         id: 29  ,
-        nombre:'Alfombra Redonda pelo largo',
+        nombre:'Alfombra Redonda',
         precio: 2500,
         categoria: 'promociones',
         descuento: true,
