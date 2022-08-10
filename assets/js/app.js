@@ -58,6 +58,13 @@ const agregarAlCarrito = (prodId) => {
 
     }
     actualizarCarrito();
+    Toastify({
+
+        text: "Agregado al carrito correctamente",
+        
+        duration: 2000
+        
+        }).showToast();
 }
 const eliminarDelCarrito = (prodId) => {
     const item = carrito.find((prod) => prod.id === prodId)
